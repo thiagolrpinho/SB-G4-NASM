@@ -5,4 +5,4 @@ Sites para consulta:
 
     https://code.woboq.org/userspace/glibc/stdlib/getenv.c.html # Implementação do getenv.c
 
-    https://stackoverflow.com/questions/17676026/converting-c-to-nasm-assembly Tutorial de como converter código C para NASM. Pode ser bom para engenharia reversa.
+    https://stackoverflow.com/questions/17676026/converting-c-to-nasm-assembly Tutorial de como converter código C para NASM. Pode ser bom para engenharia
