@@ -1,9 +1,5 @@
-global _main 
-extern _scanf 
-extern _printf     
-
-
-
+global _start 
+   
 segment .data
     %defstr path %!PATH         ; The operating system PATH variable
     pa db path,10
@@ -15,7 +11,7 @@ segment .bss
 
 segment .text
 
-_main:
+_start:
 
        mov eax,pa
        mov eax,4            ; The system call for write (sys_write)
